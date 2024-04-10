@@ -12515,20 +12515,22 @@ pre .code {
     font-weight: bold;
     opacity: .8;
     color: #212529;
-    margin-left: -300px;
+    justify-content: center;
+    align-items: center;
   }
 
   .header .header-content .header-subtitle {
     font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
     letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
+    justify-content: left;
     opacity: .8;
     margin-top: -10px;
     margin-bottom: 20px;
-    margin-left: -251px;
   }
 
   .service-card-up{
-    margin-left: -150px;
+    justify-content: left;
+    margin : 0;
     height: 50px;
     width: 50px;
     border: 1px solid #000;
@@ -12538,6 +12540,8 @@ pre .code {
  
   .row{
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
   }
 }
