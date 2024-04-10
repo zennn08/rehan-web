@@ -11396,7 +11396,7 @@ p {
 }
 
 .service-card-tugas:hover .body .subtitle {
-  bottom: 7px;
+  bottom: 5px;
   opacity: 1;
   visibility: visible;
   color: #000;
