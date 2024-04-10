@@ -12497,7 +12497,7 @@ pre .code {
 .section-lg {
   padding: 100px 0 !important;
 }
-@media screen and (max-width : 700px) {
+@media screen and (max-width : 476px) {
   .service-card-up .body {
     padding: 10px;
   }
