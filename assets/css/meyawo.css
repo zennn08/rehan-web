@@ -11385,6 +11385,7 @@ p {
   .service-card-tugas .body .subtitle {
     -webkit-transition: none;
     transition: none;
+    width: 100%;
   }
 }
 
@@ -11416,6 +11417,7 @@ p {
   .service-card-up .body img.icon {
     -webkit-transition: none;
     transition: none;
+    width: 100%;
   }
 }
 
@@ -11432,6 +11434,7 @@ p {
   .service-card-up.body .subtitle {
     -webkit-transition: none;
     transition: none;
+    width: 100%;
   }
 }
 
@@ -11443,9 +11446,10 @@ p {
 }
 
 .service-card-up:hover .body .subtitle {
-  bottom: 7px;
+  bottom: -2px;
   opacity: 1;
   visibility: visible;
+  font-size: 2px;
 }
 
 /*/ portfolio wrapper */
@@ -11510,7 +11514,7 @@ p {
     margin-bottom: 30px;
   }
   .service-card {
-    margin-bottom: 30px;
+    margin:100%;
   }
 }
 
